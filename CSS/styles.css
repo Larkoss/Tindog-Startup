@@ -1,6 +1,6 @@
 
 #title{
-  background-color: #ff4c68;
+  background-color: #c528e8;
 
 }
 
@@ -16,6 +16,11 @@ h2{
   font-size: 2.5rem;
   font-weight: 800;
 
+}
+h4{
+  font-family: "Arial", sans-serif;
+  font-weight: 800;
+  padding-top: 2%;
 }
 
 .container-fluid{
@@ -33,6 +38,13 @@ h2{
 
 }
 
+.logo{
+  width: 100px;
+  border-radius: 100%;
+  margin-top: -5%;
+  margin-bottom: 0%;
+}
+
 /* Nav-Bar */
 
 .navbar-brand{
@@ -42,7 +54,8 @@ h2{
 }
 
 .nav-item{
-  padding: 0% 5%;
+  padding: 0% 1%;
+ 
 }
 
 /* Button */
@@ -57,7 +70,10 @@ h2{
 
 #features{
   background-color: #ebefd0;
-  padding: 7% 14%;
+  padding-left: 14%;
+  padding-right: 14%;
+  padding-top: 13%;
+  padding-bottom: 10%;
   position: relative;
   z-index: 1px;
 }
@@ -76,20 +92,31 @@ h2{
 /* Icons */
 
 .icon{
-color: #cd3f3e;
+color: #8d1da6;
 margin-bottom: 4%;
 }
 
 .icon:hover{
-  color: #ff4c68;
+  color: #c528e8;
   transition: all .2s ease-in-out;
 }
 
-/* Testimonials */
+.socialicon{
+  padding-top: 50%;
+  color: #8d1da6;
+  margin-bottom: 4%;
+  }
+  
+  .socialicon:hover{
+    color: #c528e8;
+    transition: all .2s ease-in-out;
+  }
 
-#testimonials{
+/* impact */
+
+#impact{
   text-align: center;
-  background-color: #ff4c68;
+  background-color: #c528e8;
   color: #f1f1f1;
 }
 
@@ -97,22 +124,21 @@ margin-bottom: 4%;
   width: 140px;
   border-radius: 100%;
   margin-top: 3%;
-
 }
 
 .carousel-item{
   padding: 7% 15%;
 }
 
-/* Pricing */
+/* Learn More */
 
-#pricing{
+#learnmore{
   background-color: #ebefd0;
   color: #696464;
   padding: 6% 8%;
 }
 
-.pricing-text{
+.learnmore-text{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
@@ -123,16 +149,46 @@ margin-bottom: 4%;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  font-size: large;
+  margin-top: 3%
 }
 
 .initial-2-cards{
   margin-top: 56px;
 }
 
+/* team */
+
+#team{
+  padding-top: 6%;
+  padding-right: 8%;
+  padding-left: 8%;
+  text-align: center;
+  background-color: #c528e8;
+  color: #f1f1f1;
+}
+
+.team-img{
+  width: 140px;
+  border-radius: 100%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Social Media */
+
+#social{
+  background-color: #ebefd0;
+  color: #696464;
+  padding: 5% 20%;
+}
+
 /* call of text */
 
 #cta{
-  background-color: #ff4c68;
+  background-color: #c528e8;
   text-align: center;
   padding: 4% 8%;
   color: #f1f1f1;
@@ -176,14 +232,16 @@ margin-bottom: 4%;
     padding-top: 15%;
   }
 
-  #testimonials{
+  #impact{
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
   }
 
   #footer{
-    padding: 4% 4%;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
   }
 
 }
